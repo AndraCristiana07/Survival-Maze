@@ -2,10 +2,10 @@
 
 #include "components/simple_scene.h"
 #include "components/transform.h"
-#include "lab_m1/Tema2/camera.h"
-#include "lab_m1/Tema2/transf3D.h"
-#include "lab_m1/Tema2/transf2D.h"
-#include "lab_m1/Tema2/obj2D.h"
+#include "lab_m1/tema2/camera.h"
+#include "lab_m1/tema2/transf3D.h"
+#include "lab_m1/tema2/transf2D.h"
+#include "lab_m1/tema2/obj2D.h"
 #include <stack>
 #include <string>
 #include <unordered_map>
@@ -128,7 +128,7 @@ namespace m1
         bool game_over ;
       
         void Initialize(Cell Level[][SIZE]);
-        void GenerateMaze(Cell Level[][SIZE]);
+        void GenerateMaze(Cell level[][SIZE]);
         float bodyScaleX, bodyScaleZ;
         float translateX, translateY, translateZ;
    

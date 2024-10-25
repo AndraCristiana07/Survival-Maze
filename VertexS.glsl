@@ -19,7 +19,6 @@ uniform float timeE;
 out vec2 texcoord;
 out float noise;
 
-
 float turbulence( vec3 p ) {
 
   float w = 100.0;
