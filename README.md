@@ -44,10 +44,17 @@
 
 In this maze survival gamr, your objective is to reach the end of the labrinth while eliminating the opponents that stand in your wait.
 
+![Maze](https://github.com/AndraCristiana07/Survival-Maze/blob/main/images/1.png?raw=true)
+
 * **Player** :
   * The player can control, in third person, a simple human avatar that is represented by colourful cubes. You can move with the W, A, S, D keys.
-  * By default, the character will have a Third Person camera attached, but it will be able to attack by launching some projectiles. Entering the attack mode is done with the right mouse, so the camera will be switched to First Person and you will be able to aim and launch projectiles in the direction of the camera by pressing the left mouse button.
+  * By default, the character will have a Third Person camera attached, but it will be able to attack by launching some projectiles. Entering the attack mode is done with the T key, so the camera will be switched to First Person and you will be able to aim and launch projectiles in the direction of the camera by pressing the left mouse button.
   * Projectiles are simple objects that have a direction, a speed and a lifetime. When they encounter an obstacle (enemy, wall) or exceed their lifetime, they will disappear from the scene.
+
+![Enemy](https://github.com/AndraCristiana07/Survival-Maze/blob/main/images/3.png?raw=true)
+
+![Projectile](https://github.com/AndraCristiana07/Survival-Maze/blob/main/images/4.png?raw=true)
+
 
 * **Maze** :
   * The maze is different at every run. In the begining the player starts at a random valid position in the maze
@@ -57,6 +64,10 @@ In this maze survival gamr, your objective is to reach the end of the labrinth w
   * Enemies move only within the square associated with them. 
   * To reach the exit from the maze, the player may be forced to pass through cells containing enemies. However, if the player is touched by an enemy, he loses a life. When you lose all available life, the game will stop immediately.
   * The player has the ability to launch projectiles at the enemies. When they hit, the respective enemy will disappear. The player will thus be able to continue his journey.
+
+![Enemy](https://github.com/AndraCristiana07/Survival-Maze/blob/main/images/2.png?raw=true)
+
+
 
 * **HUD**
   * In addition to the surrounding world, there's also a HUD (heads-up display). It has 2 elements that always appear on the player's screen in the same position, as graphical interface elements:
